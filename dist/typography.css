@@ -1,0 +1,75 @@
+/* Clear, consistent editorial typography */
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.public-page .editorial-section-head{grid-template-columns:1fr;gap:15px;align-items:start;margin-bottom:34px}
+.public-page .editorial-section-head>.section-marker{margin-bottom:7px}
+.public-page .editorial-section-head h2,.public-page .section-intro h2,.public-page .faq-intro h2{font-size:clamp(32px,3.4vw,46px);font-weight:500;line-height:1.13;letter-spacing:-.035em;max-width:760px}
+.public-page .editorial-section-head>p{justify-self:start;margin:0;max-width:52ch;font-size:15px;line-height:1.75;color:#53677a}
+.public-page .section-marker{font-size:10px;font-weight:600;letter-spacing:.11em}
+.public-page .audience-card{padding:32px 32px 0}
+.public-page .product-topline{font-size:10px;letter-spacing:.09em;margin-bottom:24px;color:#516b7d;gap:12px}
+.public-page .product-topline .product-number{font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center;width:26px;height:26px;background:#e2e8f1;border-radius:4px}
+.public-page .audience-card h3{font-size:clamp(29px,2.7vw,36px);line-height:1.14;letter-spacing:-.035em;font-weight:500}
+.public-page .product-description{font-size:14px;line-height:1.75;max-width:44ch;min-height:50px;margin:19px 0 26px;color:#53677a}
+.public-page .lender-product .product-description{color:#c4d2e1}
+.public-page .lender-product .product-topline{color:#b6c9df}
+.public-page .lender-product .product-number{background:#ffffff12;color:#a9c4ff}
+.public-page .product-preview{padding:20px;margin:0 0 24px;min-height:196px}
+.public-page .mini-ui-head{font-size:10px;padding-bottom:14px}
+.public-page .mini-ui-head>span:last-child{font-size:9px}
+.public-page .mini-lender-row{padding:13px 0;gap:11px}
+.public-page .mini-lender-row strong{font-size:11px}
+.public-page .mini-lender-row small{font-size:9px;line-height:1.5}
+.public-page .mini-lender-row b{font-size:19px}
+.public-page .mini-lender-row b small{font-size:8px}
+.public-page .mini-ui-note{font-size:9px;line-height:1.7;color:#687e8d}
+.public-page .mini-business strong{font-size:12px}.public-page .mini-business small{font-size:9px;line-height:1.6}
+.public-page .mini-business-metrics span{font-size:9px;line-height:1.6}.public-page .mini-business-metrics strong{font-size:12px}
+.public-page .audience-list{gap:13px;margin:0 0 27px}
+.public-page .audience-list li{font-size:13px;line-height:1.7;color:#4c6578;align-items:start}
+.public-page .lender-product .audience-list li{color:#c4d2e1}
+.public-page .product-link{font-size:13px;min-height:69px}.public-page .lender-join{font-size:11px}
+.public-page .application-steps{padding:32px 34px}
+.public-page .application-step{gap:19px;padding:24px 0;position:relative}
+.public-page .step-index{flex:0 0 34px;width:34px;height:34px;display:flex;align-items:center;justify-content:center;font-size:15px;letter-spacing:0;line-height:1;color:#b6ceec;background:#ffffff09;border:1px solid #ffffff20;border-radius:5px;margin-top:1px}
+.public-page .application-step h3{font-size:18px;line-height:1.4;font-weight:500;letter-spacing:-.02em;margin-bottom:10px}
+.public-page .application-step p{font-size:13px;line-height:1.8;color:#c4d2e1;max-width:40ch}
+.public-page .application-check-link{font-size:13px;line-height:1.6;padding-top:25px}
+.public-page .document-checklist{padding:33px}
+.public-page .document-checklist h3{font-size:30px;font-weight:500;line-height:1.2;letter-spacing:-.03em}
+.public-page .document-checklist>p{font-size:13px;line-height:1.8;color:#53677a}
+.public-page .document-checklist h4{font-size:13px;line-height:1.5;font-weight:600}
+.public-page .document-checklist li p{font-size:12px;line-height:1.8;color:#5d7282}
+.public-page .document-checklist li{gap:12px;margin-top:22px}
+.public-page .document-prototype-note{font-size:11px;line-height:1.8;color:#5d7079;margin-top:25px}
+.public-page .records-guide{padding-top:34px;gap:28px}
+.public-page .records-guide h3{font-size:24px;line-height:1.25;letter-spacing:-.025em;max-width:300px}
+.public-page .records-guide strong{font-size:13px}.public-page .records-guide p{font-size:12px;color:#5b7081;line-height:1.8}
+.public-page .records-storage-note{font-size:11px;color:#687b88}
+.public-page .faq-intro>p,.public-page .section-intro p{font-size:13px;color:#5b7081;line-height:1.8}
+.public-page .faq-item summary{font-size:14px;padding:25px 0;line-height:1.6}
+.public-page .faq-item>p{font-size:13px;color:#536b7e;line-height:1.85}
+.public-page .faq-intro .textbtn{font-size:12px}
+.public-page .eligibility-intro h2{font-size:clamp(32px,3.1vw,42px);font-weight:500;line-height:1.17;letter-spacing:-.035em}
+.public-page .eligibility-intro>p{font-size:13px;color:#536d86;line-height:1.85}
+.public-page .eligibility-intro>.eligibility-scope{font-size:11px;color:#5e7489}
+.public-page .eligibility-criteria dl>div{font-size:12px}.public-page .criteria-label{font-size:9px}
+.public-page .eligibility-card .field label,.public-page .readiness-documents legend,.public-page .readiness-documents label{font-size:12px}
+.public-page .readiness-documents>p{font-size:11px}.public-page .eligibility-form-note{font-size:10px;color:#60788d}
+.public-page .review-type{font-size:9px}.public-page .review-author strong{font-size:11px}.public-page .review-author small{font-size:10px}
+.language-switch{display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:0 0 auto;min-height:38px;padding:8px 11px;border:1px solid #cdd7dd;border-radius:5px;background:transparent;color:#254b6d;font:12px/1.3 Arial,Helvetica,sans-serif;cursor:pointer;white-space:nowrap}
+.language-switch>.icon{width:16px;height:16px;stroke-width:1.5}.language-switch:hover{background:#e8eef8;border-color:#a8bbd6;color:#245be5}.language-switch:focus-visible{outline:2px solid #245be5;outline-offset:4px}
+.auth-nav .language-switch{margin-left:auto;margin-right:24px}.shell .language-switch{min-height:35px;font-size:11px;padding:7px 9px;border-color:#d6dfe5}
+.public-nav-actions{gap:15px}.public-links{gap:20px}.public-page .nav-login{font-size:12px}.public-nav{gap:24px}
+html[lang=th] .public-page h1,html[lang=th] .public-page h2,html[lang=th] .public-page h3,html[lang=th] .auth-page h1,html[lang=th] .auth-page h2,html[lang=th] .auth-page h3,html[lang=th] .shell h1,html[lang=th] .shell h2,html[lang=th] .shell h3{letter-spacing:0;line-height:1.4;overflow-wrap:anywhere}
+html[lang=th] .section-marker,html[lang=th] .editorial-kicker,html[lang=th] .product-topline{letter-spacing:.025em;line-height:1.7}
+html[lang=th] .landing-title{font-size:clamp(48px,5.2vw,76px);line-height:1.3}
+html[lang=th] .public-page p,html[lang=th] .auth-page p{line-height:1.95}
+html[lang=th] .audience-card h3{font-size:clamp(26px,2.6vw,33px)}
+html[lang=th] .product-description{min-height:60px}
+html[lang=th] .btn,html[lang=th] .textbtn{white-space:normal;line-height:1.6}
+html[lang=th] .hero-actions{flex-wrap:wrap}
+html[lang=th] .public-page .public-nav .brand,html[lang=th] .auth-page .brand{letter-spacing:-1.6px}
+@media(max-width:1200px){.public-links{display:none}.public-guide-nav{display:grid}.header-contact{display:block!important}.public-nav-actions>.nav-login:not(.header-contact){display:none}.public-nav-actions{gap:15px}.public-guide-nav{grid-template-columns:repeat(3,1fr);border-bottom:1px solid #d9dfd9}.public-guide-nav a{font-size:11px;color:#577086;padding:15px 0;display:flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap}.public-guide-nav .icon{width:13px;height:13px}.public-guide-nav a+a{border-left:1px solid #d9dfd9}}
+@media(max-width:1000px){.public-page .application-step{gap:15px}.public-page .application-steps,.public-page .document-checklist{padding:27px}.public-page .application-step p{font-size:12px}.public-page .application-step h3{font-size:17px}.public-page .document-checklist h3{font-size:27px}.public-page .document-checklist>p{font-size:12px}.public-page .document-checklist li p{font-size:11px}.public-page .audience-card{padding:28px 26px 0}.public-page .product-description{font-size:13px;min-height:69px}.public-page .audience-list li{font-size:12px}}
+@media(max-width:760px){.public-nav-actions>.btn{display:none}.public-nav-actions{gap:12px}.public-page .nav-login{font-size:11px}.public-page .language-switch{min-height:35px;padding:7px 9px;font-size:11px}.public-page .language-switch>.icon{width:14px;height:14px}.auth-nav .language-switch{margin-right:15px;padding:7px 8px;font-size:11px}.auth-nav>.textbtn{font-size:10px}.public-page .editorial-section-head{gap:14px;margin-bottom:26px}.public-page .editorial-section-head>p{font-size:13px;max-width:40ch;line-height:1.8}.public-page .editorial-section-head h2,.public-page .section-intro h2,.public-page .faq-intro h2{font-size:34px;line-height:1.15;letter-spacing:-.03em}.public-page .section-marker{font-size:9px}.public-page .audience-card{padding:27px 25px 0}.public-page .audience-card h3{font-size:30px}.public-page .product-topline{font-size:9px;margin-bottom:22px}.public-page .product-description{font-size:13px;min-height:0;margin:17px 0 23px;line-height:1.8}.public-page .product-preview{padding:17px;min-height:188px}.public-page .mini-ui-head{font-size:9px}.public-page .mini-ui-head>span:last-child{font-size:8px}.public-page .mini-lender-row strong{font-size:10px}.public-page .mini-lender-row small{font-size:8px}.public-page .mini-ui-note{font-size:8px}.public-page .mini-business-metrics span{font-size:8px}.public-page .audience-list li{font-size:12px}.public-page .product-link{font-size:12px;min-height:65px}.public-page .application-steps{padding:28px 25px}.public-page .application-step{gap:16px;padding:24px 0}.public-page .step-index{width:31px;height:31px;flex-basis:31px;font-size:14px}.public-page .application-step h3{font-size:17px;line-height:1.5}.public-page .application-step p{font-size:13px;line-height:1.85}.public-page .document-checklist{padding:29px 25px}.public-page .document-checklist h3{font-size:28px}.public-page .document-checklist>p{font-size:13px}.public-page .document-checklist li p{font-size:12px}.public-page .document-prototype-note{font-size:11px}.public-page .records-guide h3{font-size:25px}.public-page .records-guide p{font-size:12px}.public-page .faq-item summary{font-size:14px}.public-page .faq-item>p{font-size:13px}.public-page .eligibility-criteria dl>div{font-size:11px}.public-page .readiness-documents label{font-size:11px}.public-guide-nav a{font-size:10px;padding:13px 0;gap:7px}.shell .topbar .top-actions>.avatar,.shell .topbar .top-actions>.divider{display:none}.shell .top-actions{gap:5px}.shell .language-switch{padding:7px 8px;font-size:10px;gap:5px;min-height:34px}.shell .language-switch>.icon{display:none}.shell .role-switch button{padding:7px 8px;font-size:9px}.shell .topbar .mobile-brand{font-size:17px}.shell .topbar{gap:6px}.shell .breadcrumb{display:none}html[lang=th] .public-page .editorial-section-head h2,html[lang=th] .public-page .faq-intro h2{font-size:30px;line-height:1.4}html[lang=th] .public-page .audience-card h3{font-size:28px}html[lang=th] .product-description{min-height:0}html[lang=th] .landing-title{font-size:48px;line-height:1.35}html[lang=th] .auth-nav>.textbtn{font-size:9px}}
+@media(max-width:390px){.public-page .brand{font-size:22px}.public-nav{gap:10px}.public-nav-actions{gap:9px}.public-page .nav-login{font-size:10px}.auth-nav .language-switch{margin-right:8px}.auth-page .brand{font-size:21px}.auth-nav>.textbtn{font-size:9px}.public-page .mini-lender-row b{font-size:16px}.public-page .mini-lender-row b small{font-size:7px}.shell .topbar .iconbtn[data-action=notifications]{display:none}html[lang=th] .shell .role-switch button{font-size:9px;padding:7px 6px}}

@@ -1,0 +1,15 @@
+{
+  "name": "bahtbridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Thai baht business credit marketplace prototype for vendors and lenders.",
+  "scripts": {
+    "dev": "python3 scripts/serve.py",
+    "build": "node scripts/build-standalone.mjs",
+    "test": "node --test tests/*.cjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

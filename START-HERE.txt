@@ -1,0 +1,16 @@
+BAHTBRIDGE — LOCAL WEBSITE
+
+Double-click Start Bahtbridge.command to run the website locally.
+Your browser opens automatically. Keep the Terminal window open while using it.
+Press Control-C in that Terminal window to stop the server.
+
+You can also open Bahtbridge.html directly without running a server.
+All source files, assets, scripts, and existing tests are included.
+See README.md for demo credentials and details.
+
+Demo accounts:
+Vendor: vendor@bahtbridge.demo
+Lender: lender@bahtbridge.demo
+Password for both: Bahtbridge2026
+
+This is the current prototype; records stay in the browser you use.
