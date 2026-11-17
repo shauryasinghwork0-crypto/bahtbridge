@@ -2,6 +2,8 @@
 
 A responsive business finance prototype connecting Thai vendors with credit providers. All currency is Thai baht. The interface uses Arial, an ivory canvas, navy navigation and electric blue accents.
 
+The presentation uses coordinated hero and section entrances, animated chart drawing, vertical ledger growth and subtle pointer movement. Workspace entrances run on page or role changes; changing a filter or chart period keeps the view steady. Use **Pause motion** in the footer to stop nonessential animation. This preference is remembered, and system reduced-motion settings always take priority. The layout supports English and Thai on desktop and mobile.
+
 ## Run
 
 No dependency installation is required. With Python 3 and Node 18 or later:
@@ -45,6 +47,8 @@ npm run build
 
 The build creates `Bahtbridge.html` with the CSS and JavaScript embedded. Runtime tests cover product filters, vendor filters, access, onboarding, comparisons, financial records and the application through offer acceptance workflow. They use a lightweight simulated DOM; they do not replace visual browser checks.
 
+The static entry point includes content-based asset versions so returning visitors receive updated files. Motion tests cover page transitions, stable filters, remembered pause state, language changes and system reduced motion.
+
 ## Source
 
 | File | Purpose |
@@ -60,6 +64,8 @@ The build creates `Bahtbridge.html` with the CSS and JavaScript embedded. Runtim
 | `dist/design.css` | Editorial public pages and access screens |
 | `dist/workspace-theme.css` | Light finance workspace and dialog theme |
 | `dist/typography.css` | Refined text hierarchy, readable copy and Thai responsive styles |
+| `dist/polish.css` | Unified visual refinement, responsive layouts and motion timing |
+| `dist/motion.js` | Page-aware entrances, pointer motion and accessible motion preferences |
 | `dist/locale.js` | Persistent language switch, dynamic translation and form value preservation |
 | `dist/th-public.js` | Thai public page and access translations |
 | `dist/th-workspace.js` | Thai dashboard, marketplace, filter and record translations |

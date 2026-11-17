@@ -2,6 +2,7 @@
   'use strict';
   Object.assign(window.BB_THAI ||= {}, {
     'Bahtbridge home':'หน้าแรก Bahtbridge',
+    'Skip to content':'ข้ามไปยังเนื้อหา',
     'Public navigation':'เมนูหลักของเว็บไซต์',
     'Application guidance':'คำแนะนำการสมัคร',
     'Our products':'บริการของเรา',
